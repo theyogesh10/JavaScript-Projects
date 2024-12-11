@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: auto;
+    background-color: #e6e6fa;
+    font-family: cursive;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #9370db;
+}
+
+#weekday-name {
+    font-size: 3rem;
+    color: #6a5acd;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+#weekday-quote {
+    font-size: 1rem;
+    color: #8a2be2;
+    text-align: center;
+}
