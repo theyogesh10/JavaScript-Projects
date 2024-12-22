@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>FD Calculator</h1>
+        <div class="form-group">
+            <label for="investment-amount">Total Investment</label>
+            <input type="number" id="investment-amount" placeholder="Enter Investment Amount">
+        </div>
+        <div class="form-group">
+            <label for="interest-rate">Rate of Interest (p.a.)</label>
+            <input type="number" id="interest-rate" placeholder="Enter Rate of Interest">
+        </div>
+        <div class="form-group">
+            <label for="time-period">Time Period (in years)</label>
+            <input type="number" id="time-period" placeholder="Enter Time Period in Years">
+        </div>
+        <button id="calculate-btn" class="calculate-btn">Calculate</button>
+        <p class="result" id="result">Maturity Amount : </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
